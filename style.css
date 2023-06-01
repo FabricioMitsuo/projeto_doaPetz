@@ -1,0 +1,55 @@
+*{
+    margin: 0 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /*justify-content alinha no sentido do flex*/
+    width: 100%;
+    align-items: center;
+    height: 88px;
+    border: solid 1px rgba(66, 62, 62, 0.952);
+
+
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+}
+
+p {
+    justify-content: center;
+    font-family: Raleway;
+    
+
+}
+
+.linkcadastro{
+    color:#FF6E22;
+    
+
+
+}
+/* header nav a:nth-child(2){
+    margin-left: 20px;
+} */
+
+.primeiro_conteudo{
+    display:flex;
+    
+}
