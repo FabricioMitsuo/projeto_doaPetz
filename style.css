@@ -1,7 +1,7 @@
 *{
     margin: 0 0;
     padding: 0;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -11,7 +11,8 @@ header {
     width: 100%;
     align-items: center;
     height: 88px;
-    border: solid 1px rgba(66, 62, 62, 0.952);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);/* da uma efeito de sombra no elemento */
+
 
 
 }
@@ -29,13 +30,17 @@ header nav {
     justify-content: center;
     align-items: center;
     width: 250px;
+    gap: 10px; /* espaco entre os elementos do pai */
+}
 
+header nav a{
+    text-decoration: none;/*tira e poe decoracao do texto.*/
+    /* text-indent: 5px; */
 }
 
 p {
     justify-content: center;
-    font-family: Raleway;
-    
+    font-family: ra;    
 
 }
 
@@ -49,7 +54,51 @@ p {
     margin-left: 20px;
 } */
 
-.primeiro_conteudo{
+/*Banner*/
+
+.banner{
     display:flex;
+    width:100%;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
     
+
+}
+
+.banner div{
+    height: 85%;
+}
+
+.div_informacao_banner{
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+    max-width: 1000px;
+
+
+}
+
+.div_fotos_banner{
+    background-color: blueviolet;
+
+
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.div_informacao_banner p{
+    margin-bottom: 15px;
+    
+
+
+
+
+
+
+
 }
