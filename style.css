@@ -87,18 +87,31 @@ p {
 }
 
 h1{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 50px;
 }
 
 .div_informacao_banner p{
     margin-bottom: 15px;
+   
+
+}
+
+.div_informacao_banner1 p{
+    margin-bottom: 15px ;
+    font-size: 25px;
+
+
+}
+
+.div_tipo_pefil p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    background-color: blue;
     
-
-
-
-
-
+    
 
 
 }
