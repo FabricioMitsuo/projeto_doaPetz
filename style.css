@@ -11,7 +11,7 @@ header {
     width: 100%;
     align-items: center;
     height: 88px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);/* da uma efeito de sombra no elemento */
+    box-shadow:(#FF6E22);/* da uma efeito de sombra no elemento */
 
 
 
@@ -59,7 +59,7 @@ p {
 .banner{
     display:flex;
     width:100%;
-    background-color: blue;
+    background-color
     justify-content: space-between;
     align-items: center;
     height: 500px;
@@ -115,3 +115,23 @@ h1{
 
 
 }
+footer{
+    background-color: #0088AE;
+    
+}
+
+footer p{
+    font-size: 30px;
+    
+}
+
+
+
+footer .logo{
+    font-size:20px;
+    display: block;
+
+
+}
+    
+
